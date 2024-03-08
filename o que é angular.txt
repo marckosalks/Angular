@@ -1,0 +1,12 @@
+O QUE É ANGULAR?
+
+-Angular é um framework pensado para desenvolver aplicações 
+parrudas e estaveis, pensado para o longo prazo e utilizado
+em grandes empresas estruturadas como bancos.  
+
+-comando para rodar angular
+
+ng serve
+
+
+
