@@ -107,5 +107,10 @@
   },
   "cli": {
     "analytics": "27610c90-873a-475a-b8ff-feee3c0bee54"
+  },
+  "stylePreprocessorOptions": {
+    "includePaths": [
+      "node_modules/"
+    ]
   }
 }
