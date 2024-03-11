@@ -1,4 +1,4 @@
-# Criei esse repositório como base de um curso de Angula! 🅰️ 👾
+# Para devs interessados em Angula! 🅰️ 👾
 
 https://www.udemy.com/course/angular-9-essencial/
 
