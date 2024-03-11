@@ -1,4 +1,8 @@
---> O que é o angular ? 🅰️
+# Criei esse repositório como base de um curso de Angula! 🅰️ 👾
+
+https://www.udemy.com/course/angular-9-essencial/
+
+##  O que é o angular ? 🅰️
 
 É um framework da google usado para construir Spa
 baseado em components.
