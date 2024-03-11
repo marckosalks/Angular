@@ -1,27 +1,56 @@
-# Frontend
+# Para devs interessados em Angula! 🅰️ 👾
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+https://www.udemy.com/course/angular-9-essencial/
 
-## Development server
+##  O que é o angular ? 🅰️
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+É um framework da google usado para construir Spa
+baseado em components.
 
-## Code scaffolding
+Angular.js é a primeira versão do angular(versão antiga)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+CLI - comand line interface
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## --> Comandos 👩🏾‍🚀
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+INSTALAR
 
-## Running end-to-end tests
+npm i -g @angular/cliD
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## CRIAR PROJETO
 
-## Further help
+ng new  minha-primeira-app
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## --> Arvove de components 🌲
+
+O componente App que seria o pai de todos chama os demais 
+components dentro dele, tambem podemos usar um componente
+filho que se comporta como componente pai e chama os demais
+components dentro deles.
+
+
+## --> Conceitos essencias do angular 🟩🟨🟥📖
+
+Componente: Pedaço de codigo que pode ser reutilizado,pode ser
+representado como um pedaço da tela, mas para nos codificadores
+uma pasta com arquivos: html, css e typescript
+
+Modulos: voce tem um modulo que dentro dele contem componentes
+mas para cada modulo voce so pode guardar arquivos especificos.
+Todos os components são referenciados pelo app
+
+### Dentro do modulo nos temos:
+
+-Declarations: components, diretivas, pipes (declarar components fazem parte do modulo)
+-Exports: components, diretivas, pipes (visiveis para outros modulos)
+-Imports: Module A, Module B, Module C (outros modulos que voce for usar)
+-Providers: sercice A, sercice B, sercices C ()
+-BootStrap: App components
+
+  
+
+
+
