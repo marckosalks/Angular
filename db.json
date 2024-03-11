@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic 2008",
+      "price": 12000.89
+    },
+    {
+      "id": "2",
+      "name": "Iphone 15",
+      "price": 4.5
+    },
+    {
+      "id": "3",
+      "name": "PS5",
+      "price": 3000.89
+    },
+    {
+      "id": 4,
+      "name": "Apartamento",
+      "price": 200000.89
+    }
+  ]
+}
