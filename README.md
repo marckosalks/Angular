@@ -50,6 +50,23 @@ Todos os components são referenciados pelo app
 -Providers: sercice A, sercice B, sercices C ()
 -BootStrap: App components
 
+### Instalando Material-Design
+
+ng add @angular/material
+
+Pode colocar tudo como Y, e escolha qual tema voce 
+deseja.
+
+### Gerar componente novo 
+
+ng generate component [Nome do componente] components/template (caminho do cpn)
+
+ou 
+
+ng g c [Nome do componente] 
+
+
+
   
 
 
