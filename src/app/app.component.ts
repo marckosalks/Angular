@@ -6,12 +6,13 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   template: `
-    <h1>Bem Vindo Programador Angular! {{title}}!</h1>
+    <h1>Seja Bem Vindo Programador Angular! {{name}} {{title}}!</h1>
 
     <router-outlet />
   `,
   styles: [],
 })
 export class AppComponent {
-  title = 'frontend';
+  name = 'Marcos '
+  title = 'Você vai conseguir um trabalho esse mês ainda!';
 }
