@@ -59,7 +59,7 @@ deseja.
 
 ### Gerar componente novo 
 
-ng generate component [Nome do componente] components/template (caminho do cpn)
+ng generate component components/template [Nome do componente] 
 
 ou 
 
