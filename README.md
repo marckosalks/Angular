@@ -83,3 +83,104 @@ depois basta usar o routerLink"/" com a rota para a
 pagina desejada. E para a navegação usamos o router-outlet
 
 Routes configura ele uma vez só, o resto voce importa apenas o routerLink para as demais paginas.
+
+### Diretivas 
+
+Diretivas estruturais (modificar o dom, add ou removendo) tem um * na frente
+
+Diretivas Atributo (css e comportamento js)
+
+### Property Binding()
+
+acessar variaveis dentro do HTML
+
+<table
+      [dataSource]="products">
+</table>
+
+
+### Decorator
+
+@Component({
+
+})
+
+@Injectable({
+  
+})
+
+@Directive({
+
+})
+
+### Event Binding 
+
+Ligar evento html a um metodo TS
+
+<button (click)="createProduct()">
+</button>
+
+
+### One Way Data Binding
+
+sentido único do ts para o html
+prenche um valor no input e esse valor é salvo em uma varivel 
+
+<input [value]="nome">
+
+
+### Two Way Data Binding
+
+duplo sentido ou seja do ts para o HTML mas tambem do
+HTML para o ts
+
+<input [(ngModel)]="nome">
+
+
+Pipes é o tal do double Stach
+
+<p>
+  O vencimento é 
+  {{  product.price | currency: 'BRL' | Channing }}
+</p>
+
+
+### Programação reativa 
+
+Algo que esta indo verificando se tem algo pra fazer
+caso sim ele executa e volta a esperar, se não ele
+espera depois e pergunta se tem algo para fazer novamente
+
+### Observer
+
+Padão orientaddo a Evento 
+
+-observer
+-subject
+-event
+
+
+Callback(função por parametro para outra função )
+
+Promises (promesa de que algo, sera executado, encadeamento de chamadas)
+
+Observables ( Reutilizavel, Stream de dados, operadores funções para os dados )
+
+### Services
+
+Classes que organizam e compartilham metodos e 
+dados entre componentes
+0
+separar reponsabilidades da aplicação 
+exemplo metodos da aplicação 
+
+Viabilizar informações entre componentes
+consjunto querente de funcionalidades dentro 
+do service
+
+comando para criar um : 
+
+ng g s services/product
+
+É uma padrão em que a classe recebe dependencias
+de fontes externas ao invés de criar as próprias
