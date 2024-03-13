@@ -66,8 +66,20 @@ ou
 ng g c [Nome do componente] 
 
 
+A parte do material é praticamente usar html e css e adionar as classes e propriedades do Angular material, Bem tranquilo 🤠.
 
+### Roteamento 🪢 
   
+Em relação as rotas não é dificil, vamos precisar das funções nativas  do angular,
 
+-Routes array que recebe dois obj :
 
+path (caminho da rota sem a barra)
+component (importe o camponente que voce deseja acessar)
 
+Porem fazemos isso dentro do menu de navegação ou direto no AppComoponent
+
+depois basta usar o routerLink"/" com a rota para a
+pagina desejada. E para a navegação usamos o router-outlet
+
+Routes configura ele uma vez só, o resto voce importa apenas o routerLink para as demais paginas.
