@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { MatToolbar } from '@angular/material/toolbar';
-import {MatSidenav, MatSidenavModule} from '@angular/material/sidenav';
-import {MatList, MatListModule} from '@angular/material/list';
+import { MatSidenavModule} from '@angular/material/sidenav';
+import { MatListModule} from '@angular/material/list';
+import { HomeComponent } from '../../../views/home/home.component';
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [MatToolbar, MatSidenavModule, MatListModule],
+  imports: [MatToolbar, MatSidenavModule, MatListModule, HomeComponent],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })

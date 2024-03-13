@@ -3,10 +3,11 @@
   width: 12rem;
 }
 
-
-
-
 .sidenav i{
   padding-right: 5px;
   color: #8BE9FD;
+}
+
+.content{
+  background-color: #0f1d24;
 }
