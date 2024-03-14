@@ -182,5 +182,17 @@ comando para criar um :
 
 ng g s services/product
 
+
+### Injeção de dependencias
+
 É uma padrão em que a classe recebe dependencias
 de fontes externas ao invés de criar as próprias
+
+Angular cria a injeção de dependencias pra gente 
+
+singletons (unica instancia)
+
+injector
+
+modulo @NgModule
+elemento @Injectable
