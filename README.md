@@ -196,3 +196,10 @@ injector
 
 modulo @NgModule
 elemento @Injectable
+
+
+### Entendendo Directivas
+
+-Comando pára criar diretivas
+
+ng g d directives/blue
