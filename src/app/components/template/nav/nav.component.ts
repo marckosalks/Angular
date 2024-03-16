@@ -2,27 +2,22 @@ import { Component } from '@angular/core';
 import { MatToolbar } from '@angular/material/toolbar';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule} from '@angular/material/list';
-import { HomeComponent } from '../../../views/home/home.component';
-import { ProductionComponent } from '../../../views/production/production.component';
-import { RouterLink, RouterOutlet } from '@angular/router';
-import { Routes } from '@angular/router';
-
-export const routes: Routes = [
-  {
-    path: "",
-    component: HomeComponent
-  },
-  {
-    path: "production",
-    component: ProductionComponent
-  }
-];
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { TesteComponent } from '../../../views/teste/teste.component';
 
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [MatToolbar, MatSidenavModule, MatListModule, HomeComponent, ProductionComponent, RouterOutlet, RouterLink],
+  imports: [
+    MatToolbar, 
+    MatSidenavModule, 
+    MatListModule, 
+    RouterOutlet, 
+    RouterLink, 
+    TesteComponent,
+    RouterLinkActive,
+  ],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })

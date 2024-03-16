@@ -5,7 +5,7 @@ import { BlueDirective } from '../../../directives/blue.directive';
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [MatToolbar, BlueDirective, ],
+  imports: [MatToolbar, BlueDirective ],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })

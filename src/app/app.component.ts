@@ -10,6 +10,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
     NavComponent,
     HeaderComponent,
     FooterComponent,
+
   ],
   templateUrl: 'app.component.html',
  
