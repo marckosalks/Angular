@@ -203,3 +203,11 @@ elemento @Injectable
 -Comando pára criar diretivas
 
 ng g d directives/blue
+
+
+### Bindings 
+(ligação de evento )
+
+o evento de click no angular, podemos incluir apenas o atributo (click)="funcao()" 
+
+ou para alterar o valor de um elemento
