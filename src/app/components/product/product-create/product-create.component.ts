@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-product-create',
@@ -7,19 +7,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './product-create.component.html',
   styleUrl: './product-create.component.css'
 })
-export class ProductCreateComponent implements OnInit{
+export class ProductCreateComponent {
 
-  atributoLegal = "qualquer";
-
-  soma = 2;
-
-  constructor() {}
-
-  ngOnInit(): void {}
-
-  fazerAlgo():void{
-    
-    console.log( this.soma * 8);
-    // console.log("Eu estou exexcutando e fazendo algo !")
-  }
 }

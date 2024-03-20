@@ -211,3 +211,19 @@ ng g d directives/blue
 o evento de click no angular, podemos incluir apenas o atributo (click)="funcao()" 
 
 ou para alterar o valor de um elemento
+
+### Injeção de dependencias no angular
+ usamos  o router como tipagem 
+ usamos na rota a injeção de depencia 
+ fazendo o angular criar pra nos o parametro
+ de rota que precisavamos 
+
+ Rever novamente pelo Youtube 
+
+ -Injeção de Dependências
+ -Rotas
+ -Diretivas
+ -Binding
+
+ Para usarmos os atributos criados, basta usar a 
+palavra this 

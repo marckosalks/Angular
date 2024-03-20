@@ -1,14 +1,27 @@
-import { NgFor } from '@angular/common';
+import { MatButton } from '@angular/material/button';
+
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 
 @Component({
   selector: 'app-production',
   standalone: true,
-  imports: [NgFor],
+  imports: [MatButton],
   templateUrl: './production.component.html',
   styleUrl: './production.component.css'
 })
 export class ProductionComponent {
-  listaNumeros  = [1,2,3]
+  atributoLegal = "qualquer";
+
+  soma = 2;
+
+  constructor(private router: Router) { }
+
+  ngOnInit(): void {}
+
+  navigateToProductCreate():void{
+    this.router.navigate(['/production/create'])
+  }
 }
