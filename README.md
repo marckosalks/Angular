@@ -227,3 +227,20 @@ ou para alterar o valor de um elemento
 
  Para usarmos os atributos criados, basta usar a 
 palavra this 
+
+
+### Criando nossa classe 
+
+criamos um type especifico para cadastrar um produto
+
+### Usando Services em nosso programa
+
+para manter nosso software limpo e o mais "magro" possivel, vamos separar a parte logica do estilo
+então componentes serao meramente ilustrativos.
+
+Requisições para api ou consumo de dados seram
+feitos dentro do nosso service.
+
+inportação de services vão dentro do array provides
+
+4:57
