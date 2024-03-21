@@ -1,5 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar'
+import { Product } from './product-model';
+import { Observable } from 'rxjs';
 
 //pode ser injetada em outras classes
 
@@ -8,7 +11,10 @@ import { MatSnackBar } from '@angular/material/snack-bar'
 })
 export class ProductService {
 
-  constructor(private snackbar: MatSnackBar) { }
+  constructor(private snackbar: MatSnackBar,private http:HttpClient) { }
+
+
+  baseurl = "http://localhost:3001/products"
 
   //aqui vou criar um novo metodo
 
@@ -21,4 +27,10 @@ export class ProductService {
     })
   }
   
+  //inserção do objeto produto no be
+
+  // vou envio um post,recebo um observable 
+  create(product: Product): Observable<Product>{ 
+    return this.http.post<Product>(this.baseurl, product);
+  }
 }
