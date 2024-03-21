@@ -13,9 +13,7 @@ import { Router } from '@angular/router';
   styleUrl: './production.component.css'
 })
 export class ProductionComponent {
-  atributoLegal = "qualquer";
-
-  soma = 2;
+  
 
   constructor(private router: Router) { }
 

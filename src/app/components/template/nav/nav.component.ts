@@ -3,7 +3,7 @@ import { MatToolbar } from '@angular/material/toolbar';
 import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatListModule} from '@angular/material/list';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { TesteComponent } from '../../../views/teste/teste.component';
+
 
 
 @Component({
@@ -15,7 +15,6 @@ import { TesteComponent } from '../../../views/teste/teste.component';
     MatListModule, 
     RouterOutlet, 
     RouterLink, 
-    TesteComponent,
     RouterLinkActive,
   ],
   templateUrl: './nav.component.html',
